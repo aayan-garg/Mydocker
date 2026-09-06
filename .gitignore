@@ -1,0 +1,12 @@
+# Build artifacts
+bin/
+obj/
+
+# RootFS base image (downloaded via make setup-rootfs)
+rootfs/
+
+# Temporary archives and logs
+*.tar.gz
+*.log
+.old_root/
+containers/
